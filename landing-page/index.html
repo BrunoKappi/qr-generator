@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bkappi QR Code Studio</title>
+  <meta name="description" content="Professional, high-definition, and highly customizable offline-first QR Code generation platform.">
+  <link rel="icon" type="image/x-icon" href="https://cdn.bkappi.com/ProjectsAssets/BkappiGeneral/bkappiIcon.ico">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">QR Studio</div>
+    <div class="controls">
+      <select id="lang-switch" class="btn-glass" aria-label="Select Language">
+        <option value="en">EN</option>
+        <option value="pt">PT</option>
+        <option value="es">ES</option>
+      </select>
+      <button id="theme-toggle" class="btn-glass" aria-label="Toggle Theme">
+        <i data-lucide="sun" id="icon-light"></i>
+        <i data-lucide="moon" id="icon-dark"></i>
+      </button>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <h1 id="hero-title">The Ultimate QR Code Generator</h1>
+      <p id="hero-subtitle">Professional, high-definition, and customizable QR Codes engineered for absolute reliability.</p>
+      <a href="https://qrcode.bkappi.com" class="cta-button" id="hero-cta">Start Generating Now</a>
+    </div>
+    <div class="hero-image-wrapper">
+      <img src="https://cdn.bkappi.com/ProjectsAssets/QRCodeGenerator/LandingPage/HomePage.png" alt="QR Studio Home" class="hero-image glass-panel">
+    </div>
+  </header>
+
+  <section class="features" id="features">
+    <div class="container">
+      <h2 id="features-title">Everything You Need</h2>
+      <div class="feature-grid">
+        <div class="feature-card glass-panel fade-up">
+          <i data-lucide="cpu" class="feature-icon"></i>
+          <h3 id="f1-title">Intelligent Autodetect</h3>
+          <p id="f1-desc">Automatically identifies format (URL, Wi-Fi, VCard, etc) instantly as you type.</p>
+        </div>
+        <div class="feature-card glass-panel fade-up">
+          <i data-lucide="shield-check" class="feature-icon"></i>
+          <h3 id="f2-title">Physical Capacity Guard</h3>
+          <p id="f2-desc">Adjust ECC levels and monitor density in real-time for perfect scannability.</p>
+        </div>
+        <div class="feature-card glass-panel fade-up">
+          <i data-lucide="palette" class="feature-icon"></i>
+          <h3 id="f3-title">Elite Customization</h3>
+          <p id="f3-desc">Modify dots, eye frames, gradients, and brand logos with precision safe zones.</p>
+        </div>
+        <div class="feature-card glass-panel fade-up">
+          <i data-lucide="download" class="feature-icon"></i>
+          <h3 id="f4-title">High-Def Exports</h3>
+          <p id="f4-desc">Export up to 4K resolution in SVG, PDF, PNG or JPEG formats seamlessly.</p>
+        </div>
+        <div class="feature-card glass-panel fade-up">
+          <i data-lucide="history" class="feature-icon"></i>
+          <h3 id="f5-title">History & Favorites</h3>
+          <p id="f5-desc">Your past codes are kept safe locally, along with beautifully crafted standard templates.</p>
+        </div>
+        <div class="feature-card glass-panel fade-up">
+          <i data-lucide="globe" class="feature-icon"></i>
+          <h3 id="f6-title">Privacy First & Localized</h3>
+          <p id="f6-desc">Operates entirely offline on your device, with support for EN, PT, and ES.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="showcase">
+    <div class="container showcase-container">
+      <div class="showcase-text fade-up">
+        <h2 id="showcase-title">Powerful Customization</h2>
+        <p id="showcase-desc">Take full control of your brand with advanced customizers, presets, and color combinations. Create something truly yours.</p>
+      </div>
+      <div class="showcase-images">
+        <img src="https://cdn.bkappi.com/ProjectsAssets/QRCodeGenerator/LandingPage/ModalOfAgeneretedQrCode.png" class="showcase-img img-main glass-panel fade-up" alt="Customizer">
+        <img src="https://cdn.bkappi.com/ProjectsAssets/QRCodeGenerator/LandingPage/QrCodeTemplates.png" class="showcase-img img-float glass-panel fade-up float-delay" alt="Templates">
+      </div>
+    </div>
+  </section>
+
+  <section class="developer" id="developer">
+    <div class="container dev-container glass-panel fade-up">
+      <div class="dev-image">
+        <img src="https://cdn.bkappi.com/BrunoKappi/Images/ProfilePicture.jpg" alt="Bruno Kappi">
+      </div>
+      <div class="dev-info">
+        <h2 id="dev-title">About the Developer</h2>
+        <h3>Bruno Kappi</h3>
+        <h4 id="dev-role">Fullstack Developer & Systems Analyst</h4>
+        <p class="location"><i data-lucide="map-pin"></i> Novo Hamburgo, Rio Grande do Sul, Brazil</p>
+        <p id="dev-bio1">With a background in both industrial automation and modern web development, Bruno brings a rare blend of technical depth and product vision to everything he builds.</p>
+        <p id="dev-bio2">He believes software should be elegant, efficient, and most of all, useful.</p>
+        <div class="dev-links">
+          <a href="https://myportfolio.bkappi.com/" target="_blank" class="btn-glass dev-link"><i data-lucide="briefcase"></i> <span id="dev-portfolio">Portfolio</span></a>
+          <a href="https://www.linkedin.com/in/brunokappi/" target="_blank" class="btn-glass dev-link"><i data-lucide="linkedin"></i> LinkedIn</a>
+          <a href="https://blog.bkappi.com/" target="_blank" class="btn-glass dev-link"><i data-lucide="book-open"></i> Blog</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p id="footer-text">© 2024 Bruno Kappi. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
